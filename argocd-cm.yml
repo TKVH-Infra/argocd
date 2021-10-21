@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: argocd-cm
+data:
+  url: https://argocd.home.lan
+  admin.enabled: "false"
+  oidc.config: |
+    name: Authentik
+    issuer: https://auth.wtpho.xyz/application/o/argocd/
+    clientID: <path:apps-kv/data/argocd/config#AUTHENTIK_CLIENT_ID>
+    clientSecret: <path:apps-kv/data/argocd/config#AUTHENTIK_SECRET_ID>
+    requestedScopes: ["openid", "profile", "email", "groups", "username"]
+  configManagementPlugins: |
+    - name: argocd-vault-plugin-kustomize
+      generate:
+        command: ["sh", "-c"]
+        args: ["kustomize build . | argocd-vault-plugin generate -"]
