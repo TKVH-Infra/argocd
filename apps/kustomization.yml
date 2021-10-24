@@ -14,3 +14,4 @@ resources:
   - duplicati-app.yml
   - authentik-app.yml
   - prowlarr-app.yml
+  - bookstack-app.yml
