@@ -7,9 +7,10 @@ resources:
   - radarr-app.yml
   - jellyfin-app.yml
   - qbittorrent-app.yml
-  - jackett-app.yml
+#  - jackett-app.yml
   - vaultwarden-app.yml
   - ombi-app.yml
   - nextcloud-app.yml
   - duplicati-app.yml
   - authentik-app.yml
+  - prowlarr-app.yml
