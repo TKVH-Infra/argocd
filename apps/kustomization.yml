@@ -15,3 +15,4 @@ resources:
   - authentik-app.yml
   - prowlarr-app.yml
   - bookstack-app.yml
+#  - lidarr-app.yml
