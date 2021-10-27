@@ -16,3 +16,4 @@ resources:
   - prowlarr-app.yml
   - bookstack-app.yml
 #  - lidarr-app.yml
+  - komga-app.yml
