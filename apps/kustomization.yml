@@ -17,3 +17,4 @@ resources:
   - bookstack-app.yml
 #  - lidarr-app.yml
   - komga-app.yml
+  - mangatagger-app.yml
