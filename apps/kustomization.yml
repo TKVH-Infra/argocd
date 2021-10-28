@@ -18,3 +18,4 @@ resources:
 #  - lidarr-app.yml
   - komga-app.yml
   - mangatagger-app.yml
+  - fmd2-app.yml
