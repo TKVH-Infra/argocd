@@ -26,9 +26,9 @@ spec:
           value: "http://vault.vault:8200"
         resources:
           limits:
-            memory: 1024Mi
+            memory: 128Mi
           requests:
-            memory: 256Mi
+            memory: 32Mi
       initContainers:
       - name: download-tools
         image: alpine:3.8
