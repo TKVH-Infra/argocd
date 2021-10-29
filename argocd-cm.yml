@@ -5,6 +5,7 @@ metadata:
 data:
   url: https://argocd.home.lan
   admin.enabled: "false"
+  accounts.image-updater: apiKey
   oidc.config: |
     name: Authentik
     issuer: https://auth.wtpho.xyz/application/o/argocd/

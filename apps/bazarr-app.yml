@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/TKVH-Apps/bazarr.git
+    repoURL: git@github.com:TKVH-Apps/bazarr.git
     targetRevision: HEAD
     path: ./
     plugin:

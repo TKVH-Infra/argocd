@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/TKVH-Apps/lidarr.git
+    repoURL: git@github.com:TKVH-Apps/lidarr.git
     targetRevision: HEAD
     path: ./
     plugin:

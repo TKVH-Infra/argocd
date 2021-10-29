@@ -5,6 +5,7 @@ resources:
   - https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
   - argocd-ing.yml
   - argocd-sa.yml
+  - argocd-github-secret.yml
   - apps/
 patches:
   - argocd-cm.yml
