@@ -2,11 +2,14 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: argocd
 resources:
-  - https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+  # ArgoCD
+  - https://raw.githubusercontent.com/argoproj/argo-cd/v2.1.6/manifests/install.yaml
   - argocd-ing.yml
   - argocd-sa.yml
   - argocd-github-secret.yml
   - apps/
+  # Argo Image Updater, don't support plugins yet...
+  #- https://raw.githubusercontent.com/argoproj-labs/argocd-image-updater/v0.11.0/manifests/install.yaml
 patches:
   - argocd-cm.yml
   - argocd-rbac-cm.yml
