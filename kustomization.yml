@@ -7,6 +7,7 @@ resources:
   - argocd-ing.yml
   - argocd-sa.yml
   - argocd-github-secret.yml
+  - argocd-ns.yml
   - apps/
   # Argo Image Updater, don't support plugins yet...
   #- https://raw.githubusercontent.com/argoproj-labs/argocd-image-updater/v0.11.0/manifests/install.yaml
