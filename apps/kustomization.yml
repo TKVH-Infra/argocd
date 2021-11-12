@@ -21,3 +21,5 @@ resources:
   - fmd2-app.yml
 #  - readarr-app.yml
   - calibre-app.yml
+  - beets-app.yml
+  - cloudflare-ddns-app.yml
