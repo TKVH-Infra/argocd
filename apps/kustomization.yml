@@ -12,7 +12,6 @@ resources:
   - ombi-app.yml
   - nextcloud-app.yml
   - duplicati-app.yml
-  - authentik-app.yml
   - prowlarr-app.yml
   - bookstack-app.yml
 #  - lidarr-app.yml
