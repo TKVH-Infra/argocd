@@ -16,8 +16,8 @@ resources:
   - prowlarr-app.yml
   - bookstack-app.yml
 #  - lidarr-app.yml
-#  - komga-app.yml
-#  - mangatagger-app.yml
-#  - fmd2-app.yml
+  - komga-app.yml
+  - mangatagger-app.yml
+  - fmd2-app.yml
 #  - readarr-app.yml
   - calibre-app.yml
