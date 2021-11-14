@@ -22,3 +22,4 @@ resources:
   - calibre-app.yml
   - beets-app.yml
   - cloudflare-ddns-app.yml
+  - codeserver-app.yml
