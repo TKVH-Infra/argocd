@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:TKVH-Apps/duplicati.git
+    repoURL: https://github.com/TKVH-Apps/duplicati.git
     targetRevision: HEAD
     path: ./
     plugin:
