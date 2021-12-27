@@ -23,3 +23,4 @@ resources:
   - beets-app.yml
   - cloudflare-ddns-app.yml
 #  - codeserver-app.yml
+  - deemix-app.yml
