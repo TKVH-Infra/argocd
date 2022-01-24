@@ -24,3 +24,4 @@ resources:
   - cloudflare-ddns-app.yml
 #  - codeserver-app.yml
   - deemix-app.yml
+  - fireflyiii-app.yml
