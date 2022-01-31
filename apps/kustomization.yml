@@ -25,3 +25,4 @@ resources:
 #  - codeserver-app.yml
   - deemix-app.yml
   - fireflyiii-app.yml
+  - miniflux-app.yml
