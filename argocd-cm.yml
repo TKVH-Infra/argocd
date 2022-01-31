@@ -8,7 +8,7 @@ data:
   accounts.image-updater: apiKey
   oidc.config: |
     name: Authentik
-    issuer: https://auth.wtpho.xyz/application/o/argocd/
+    issuer: https://auth.<path:apps-kv/data/general#DN>/application/o/argocd/
     clientID: <path:apps-kv/data/argocd/config#AUTHENTIK_CLIENT_ID>
     clientSecret: <path:apps-kv/data/argocd/config#AUTHENTIK_SECRET_ID>
     requestedScopes: ["openid", "profile", "email", "groups", "username"]

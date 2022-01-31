@@ -12,7 +12,7 @@ metadata:
     nginx.ingress.kubernetes.io/backend-protocol: "HTTPS"
 spec:
   rules:
-  - host: <path:apps-kv/data/argocd/config#HOST>
+  - host: argocd.<path:apps-kv/data/general#internalDN>
     http:
       paths:
       - path: /
@@ -24,4 +24,4 @@ spec:
               number: 443
   tls:
   - hosts:
-    - <path:apps-kv/data/argocd/config#HOST>
+    - argocd.<path:apps-kv/data/internal#DN> 
