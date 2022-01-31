@@ -24,4 +24,4 @@ spec:
               number: 443
   tls:
   - hosts:
-    - argocd.<path:apps-kv/data/internal#DN> 
+    - argocd.<path:apps-kv/data/general/#internalDN> 
