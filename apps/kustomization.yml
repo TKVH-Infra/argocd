@@ -26,3 +26,4 @@ resources:
 #  - deemix-app.yml
   - fireflyiii-app.yml
   - miniflux-app.yml
+  - jump-app.yml
