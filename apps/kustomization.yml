@@ -27,3 +27,4 @@ resources:
   - fireflyiii-app.yml
   - miniflux-app.yml
   - jump-app.yml
+  - wg-easy-app.yml
