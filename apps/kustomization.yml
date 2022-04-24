@@ -5,6 +5,7 @@ resources:
   - bazarr-app.yml
   - sonarr-app.yml
   - radarr-app.yml
+  - radarr4k-app.yml
   - jellyfin-app.yml
   - qbittorrent-app.yml
 #  - jackett-app.yml
