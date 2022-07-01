@@ -9,6 +9,6 @@ spec:
       - name: argocd-server
         resources:
           limits:
-            memory: 100Mi
+            memory: 200Mi
           requests:
-            memory: 64Mi
+            memory: 150Mi
