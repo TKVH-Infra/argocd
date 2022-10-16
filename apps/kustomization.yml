@@ -33,3 +33,4 @@ resources:
   - proxmox-app.yml
   - box-app.yml
   - saltmaster-app.yml
+  - opnsense-app.yml
